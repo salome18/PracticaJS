@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <script src="script.js" defer></script>
+    
+    <title>FlavorFinder</title>
+</head>
+<body>
+    <div class="Title">
+        <p class="welcome">Welcome to</p>
+        <p class="AppName"> FLAVORFINDER</p>
+    </div>
+
+    <div class="Search">
+        <input id="input" type="text" placeholder="Explore recipies..." spellcheck="false">
+        <button class="button"><img src="magnifier_icon-icons.com_67993 (1).png" > </button>
+    </div>
+
+    <div class="filter">
+        <p class="filterby">-Filter by- </p>
+        <select name="Filter">
+            <option value="Name">Name</option>
+            <option value="Main_ingredient">Main ingredient</option>
+            <option value="Category">Category</option>
+            <option value="Nationality">Nationality</option>
+        </select>
+    </div>
+    
+    <div class="error">
+        <p>Oops...try another recipe</p>
+    </div>
+
+    <div id="resultsContainer" class="results-container"></div>
+
+    <div id="detailsContainer"></div>
+
+
+
+    
+</body>
+</html>
